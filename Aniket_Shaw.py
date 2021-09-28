@@ -29,16 +29,16 @@ if st.sidebar.checkbox('Basic info'):
     st.write('Gender - Male')
     st.write('Education - Undergraduate')
     st.write('Location - Barrackpore, Kolkata, West Bengal, India')
-    st.write('Languages - English, Hindi, Bengali, German')
+    st.write('Languages - English, Hindi, Bengali')
     st.markdown("-----")
 
 if st.sidebar.checkbox('Interest & hobbies'):
     st.title('Interest in:')
     st.write('Software development')
-    st.write('Web development')
+    st.write('Machine Learning')
     st.write('Android Development')
-    st.write('Education - Undergraduate')
 
+    st.write('Education - Undergraduate')
     st.title('Hobbies:')
     st.write('Swimming')
     st.write('Travelling')
@@ -52,6 +52,7 @@ if st.sidebar.checkbox('Strength & Weakness'):
     st.write('Problem Solving')
     st.write('Public Speaking')
     st.write('Time Management')
+    st.write('Presentation')
     st.write('Communication')
 
     st.title('Weakness:')
@@ -82,9 +83,9 @@ if st.sidebar.checkbox('My Education Qualification'):
 if st.sidebar.checkbox('Coding Skills'):
     st.title('Programming languages:')
     st.write('Java')
-    st.write('C++')
-    st.write('C')
     st.write('Python')
+    st.write('SQL')
+    st.write('C++')
 
     st.title("Other Domains:")
     st.write('Database(RDBMS) - Oracle SQL, Mysql')
@@ -97,9 +98,6 @@ if st.sidebar.checkbox('Coding Skills'):
 
 if st.sidebar.checkbox('Work ex'):
     st.title("Work experience:")
-    st.write('Assistant Director at DMVS  -  2015-2017')
-    st.write('Event coordinator at DMHSS Savishkar  -  1month(2018)')
-    st.write('Event Manager at DMHSS Mega Sports - 1month(2019)')
     st.write('Web Developer at CrudeBits  -  3months(2021)')
     st.markdown("-----")
 
