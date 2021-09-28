@@ -54,12 +54,13 @@ if st.sidebar.checkbox('Strength & Weakness'):
     st.write('Time Management')
     st.write('Presentation')
     st.write('Communication')
+    st.write('Team Player')
+    st.write('Good listener')
 
     st.title('Weakness:')
     st.write('Overthinking Problem')
     st.write('Trust Issues')
     st.write('Old School')
-    st.write('Lone wolf')
     st.markdown("-----")
 
 if st.sidebar.checkbox('My Education Qualification'):
