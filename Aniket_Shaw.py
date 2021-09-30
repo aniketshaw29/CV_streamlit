@@ -109,6 +109,7 @@ if st.sidebar.checkbox('Contact me'):
     st.write('Mobile - 6290361967')
     st.write('[Linkedin](https://www.linkedin.com/in/aniketshaw/)')
     st.write('[Github](https://github.com/aniketshaw29)')
+    st.write('[Personal Site](https://aniketshaw29.github.io/AniketShawResume/)')
 
     st.title("Social:")
     st.write('[Instagram](https://www.instagram.com/aniiiii_29/)')
